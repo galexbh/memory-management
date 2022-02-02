@@ -14,11 +14,8 @@ UNAH (Autonomous University of Honduras). Project for the **Operating Systems II
 
 * **Kevin David Hernández Rivera** - *20181001565*
 
-* **Erick Celin Sanchez Sosa** - *20171003793*
-
-* **Roger Samuel Mendoza Martínez** - *20171003123*
-
+* **Alejandro David Ramos Izaguirre** - *20181005280*
 
 ## Necessary 📄
 
-[Java Runtime Environment ](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
+[Java Runtime Environment](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
