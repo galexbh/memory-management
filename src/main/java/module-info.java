@@ -1,3 +1,4 @@
+
 module com.unah.memorymanagement {
     requires javafx.controls;
     requires javafx.fxml;
@@ -5,7 +6,7 @@ module com.unah.memorymanagement {
     requires org.controlsfx.controls;
     requires com.dlsc.formsfx;
     requires org.kordamp.bootstrapfx.core;
-
+exi
     opens com.unah.memorymanagement to javafx.fxml;
     exports com.unah.memorymanagement;
     opens com.unah.memorymanagement.controller to javafx.fxml;
