@@ -5,19 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="853a03fd-21e7-4bda-b182-10cb043150f4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/memory-management.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/unah/memorymanagement/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unah/memorymanagement/MainApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/unah/memorymanagement/controller/BestFit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unah/memorymanagement/controller/BestFit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/unah/memorymanagement/controller/FirstFit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unah/memorymanagement/controller/FirstFit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/unah/memorymanagement/controller/NextFit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unah/memorymanagement/controller/NextFit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/unah/memorymanagement/BestFit-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/unah/memorymanagement/BestFit-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/unah/memorymanagement/FirstFit_view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/unah/memorymanagement/FirstFit-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unah/memorymanagement/controller/DynamicPartition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unah/memorymanagement/controller/DynamicPartition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/unah/memorymanagement/DynamicPartition-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/unah/memorymanagement/DynamicPartition-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,6 +160,10 @@
       <workItem from="1644598076348" duration="4115000" />
       <workItem from="1644606663936" duration="2208000" />
       <workItem from="1644615550394" duration="1123000" />
+      <workItem from="1644616709924" duration="1230000" />
+      <workItem from="1644620244273" duration="2000" />
+      <workItem from="1644626861790" duration="3000" />
+      <workItem from="1644629045333" duration="2432000" />
     </task>
     <servers />
   </component>
