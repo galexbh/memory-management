@@ -8,3 +8,7 @@ N
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
+v
+Fsrc/main/java/com/unah/memorymanagement/controller/MainController.java,0\6\0629165fc74e5066da2ee036c153c2d1bda13e13
+x
+Hsrc/main/java/com/unah/memorymanagement/controller/DynamicPartition.java,8\3\8368e2e0bf88e7ff19822dc51dd75ac2f03bfb4d

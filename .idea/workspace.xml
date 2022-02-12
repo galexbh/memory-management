@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="853a03fd-21e7-4bda-b182-10cb043150f4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/unah/memorymanagement/controller/DynamicPartition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unah/memorymanagement/controller/DynamicPartition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/unah/memorymanagement/DynamicPartition-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/unah/memorymanagement/DynamicPartition-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +160,8 @@
       <workItem from="1644616709924" duration="1230000" />
       <workItem from="1644620244273" duration="2000" />
       <workItem from="1644626861790" duration="3000" />
-      <workItem from="1644629045333" duration="2432000" />
+      <workItem from="1644629045333" duration="2564000" />
+      <workItem from="1644639881344" duration="1018000" />
     </task>
     <servers />
   </component>

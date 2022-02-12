@@ -2,6 +2,7 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
 <?import javafx.scene.control.Tab?>
 <?import javafx.scene.control.TabPane?>
 <?import javafx.scene.control.TextField?>
@@ -23,6 +24,21 @@
                      <children>
                         <TextField layoutX="360.0" layoutY="70.0" prefHeight="25.0" prefWidth="199.0" promptText="Ingrese la cantidad de memoria" />
                         <Button layoutX="576.0" layoutY="70.0" mnemonicParsing="false" text="Ingresar" />
+                        <Label alignment="BOTTOM_CENTER" contentDisplay="TOP" layoutX="90.0" layoutY="243.0" text="2 MB">
+                           <graphic>
+                              <ProgressBar prefHeight="150.0" prefWidth="40.0" progress="0.0" />
+                           </graphic>
+                        </Label>
+                        <Label alignment="BOTTOM_CENTER" contentDisplay="TOP" layoutX="130.0" layoutY="243.0" text="10 MB">
+                           <graphic>
+                              <ProgressBar prefHeight="150.0" prefWidth="200.0" progress="0.0" />
+                           </graphic>
+                        </Label>
+                        <Label alignment="BOTTOM_CENTER" contentDisplay="TOP" layoutX="330.0" layoutY="243.0" text="4 MB">
+                           <graphic>
+                              <ProgressBar prefHeight="150.0" prefWidth="80.0" progress="0.0" />
+                           </graphic>
+                        </Label>
                      </children>
                   </AnchorPane>
             </content>
