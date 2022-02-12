@@ -22,21 +22,61 @@
             <content>
               <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                      <children>
-                        <TextField layoutX="360.0" layoutY="70.0" prefHeight="25.0" prefWidth="199.0" promptText="Ingrese la cantidad de memoria" />
-                        <Button layoutX="576.0" layoutY="70.0" mnemonicParsing="false" text="Ingresar" />
-                        <Label alignment="BOTTOM_CENTER" contentDisplay="TOP" layoutX="90.0" layoutY="243.0" text="2 MB">
+                        <TextField fx:id="MemoryQuantity" layoutX="360.0" layoutY="70.0" prefHeight="25.0" prefWidth="199.0" promptText="Ingrese la cantidad de memoria" />
+                        <Button layoutX="576.0" layoutY="70.0" mnemonicParsing="false" onAction="#mouseClick" text="Ingresar" />
+                        <Label alignment="BOTTOM_CENTER" contentDisplay="TOP" layoutX="14.0" layoutY="241.0" text="2 MB">
                            <graphic>
-                              <ProgressBar prefHeight="150.0" prefWidth="40.0" progress="0.0" />
+                              <ProgressBar prefHeight="150.0" prefWidth="30.0" progress="1.0" style="-fx-accent: bisque;" />
                            </graphic>
                         </Label>
-                        <Label alignment="BOTTOM_CENTER" contentDisplay="TOP" layoutX="130.0" layoutY="243.0" text="10 MB">
+                        <Label alignment="BOTTOM_CENTER" contentDisplay="TOP" layoutX="44.0" layoutY="241.0" text="10 MB">
                            <graphic>
-                              <ProgressBar prefHeight="150.0" prefWidth="200.0" progress="0.0" />
+                              <ProgressBar fx:id="BestFitSpace1" prefHeight="150.0" prefWidth="150.0" progress="0.0" style="-fx-accent: green;" />
                            </graphic>
                         </Label>
-                        <Label alignment="BOTTOM_CENTER" contentDisplay="TOP" layoutX="330.0" layoutY="243.0" text="4 MB">
+                        <Label alignment="BOTTOM_CENTER" contentDisplay="TOP" layoutX="194.0" layoutY="241.0" text="4 MB">
                            <graphic>
-                              <ProgressBar prefHeight="150.0" prefWidth="80.0" progress="0.0" />
+                              <ProgressBar prefHeight="150.0" prefWidth="60.0" progress="1.0" style="-fx-accent: bisque;" />
+                           </graphic>
+                        </Label>
+                        <Label alignment="BOTTOM_CENTER" contentDisplay="TOP" layoutX="254.0" layoutY="241.0" text="5 MB">
+                           <graphic>
+                              <ProgressBar fx:id="BestFitSpace2" prefHeight="150.0" prefWidth="75.0" progress="0.0" style="-fx-accent: green;" />
+                           </graphic>
+                        </Label>
+                        <Label alignment="BOTTOM_CENTER" contentDisplay="TOP" layoutX="329.0" layoutY="241.0" text="3 MB">
+                           <graphic>
+                              <ProgressBar prefHeight="150.0" prefWidth="45.0" progress="1.0" style="-fx-accent: bisque;" />
+                           </graphic>
+                        </Label>
+                        <Label alignment="BOTTOM_CENTER" contentDisplay="TOP" layoutX="374.0" layoutY="241.0" text="7 MB">
+                           <graphic>
+                              <ProgressBar fx:id="BestFitSpace3" prefHeight="150.0" prefWidth="105.0" progress="0.0" style="-fx-accent: green;" />
+                           </graphic>
+                        </Label>
+                        <Label alignment="BOTTOM_CENTER" contentDisplay="TOP" layoutX="479.0" layoutY="241.0" text="2 MB">
+                           <graphic>
+                              <ProgressBar prefHeight="150.0" prefWidth="30.0" progress="1.0" style="-fx-accent: bisque;" />
+                           </graphic>
+                        </Label>
+                        <Label alignment="BOTTOM_CENTER" contentDisplay="TOP" layoutX="509.0" layoutY="241.0" text="16 MB">
+                           <graphic>
+                              <ProgressBar fx:id="BestFitSpace4" prefHeight="150.0" prefWidth="240.0" progress="0.0" style="-fx-accent: green;" />
+                           </graphic>
+                        </Label>
+                        <Label alignment="BOTTOM_CENTER" contentDisplay="TOP" layoutX="749.0" layoutY="241.0" text="3 MB">
+                           <graphic>
+                              <ProgressBar prefHeight="150.0" prefWidth="45.0" progress="1.0" style="-fx-accent: bisque;" />
+                           </graphic>
+                        </Label>
+                        <Label alignment="BOTTOM_CENTER" contentDisplay="TOP" layoutX="929.0" layoutY="241.0" text="2 MB">
+                           <graphic>
+                              <ProgressBar prefHeight="150.0" prefWidth="30.0" progress="1.0" style="-fx-accent: bisque;" />
+                           </graphic>
+                        </Label>
+                        <Label alignment="BOTTOM_CENTER" contentDisplay="TOP" layoutX="794.0" layoutY="241.0" text="9 MB">
+                           <graphic>
+                              <ProgressBar fx:id="BestFitSpace5" prefHeight="150.0" prefWidth="135.0" progress="0.0" style="-fx-accent: green;" />
                            </graphic>
                         </Label>
                      </children>
