@@ -76,7 +76,7 @@
                         </Label>
                         <Label alignment="BOTTOM_CENTER" contentDisplay="TOP" layoutX="794.0" layoutY="241.0" text="9 MB">
                            <graphic>
-                              <ProgressBar fx:id="BestFitSpace5" prefHeight="150.0" prefWidth="135.0" progress="0.0" style="-fx-accent: green;" />
+                              <ProgressBar fx:id="BestFitSpace5" prefHeight="150.0" prefWidth="135.0" progress="0.85" style="-fx-accent: green;" />
                            </graphic>
                         </Label>
                      </children>

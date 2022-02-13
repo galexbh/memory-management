@@ -21,9 +21,11 @@ public class DynamicPartition {
 
     @FXML
     private void mouseClick(){
+        ProgressBar[] pro = {BestFitSpace1, BestFitSpace2, BestFitSpace3, BestFitSpace4, BestFitSpace5};
        String value = MemoryQuantity.getText();
        double val = Integer.parseInt(value);
-       BestFitSpace1.setProgress(val/10);    }
+       pro[2].setProgress(val/10);
+    }
 
 
 }
