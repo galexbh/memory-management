@@ -5,10 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="853a03fd-21e7-4bda-b182-10cb043150f4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/unah/memorymanagement/controller/FixedDifferentPartition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/unah/memorymanagement/FixedDifferentPartition-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/unah/memorymanagement/controller/ColleaguesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/unah/memorymanagement/utils/colleaguesUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/unah/memorymanagement/colleagues-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/unah/memorymanagement/img/colleague.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/unah/memorymanagement/img/dynamic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/unah/memorymanagement/img/fixed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/unah/memorymanagement/img/fixed_size.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/unah/memorymanagement/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unah/memorymanagement/MainApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unah/memorymanagement/controller/Dynamic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unah/memorymanagement/controller/Dynamic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unah/memorymanagement/controller/FixedDifferentPartition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unah/memorymanagement/controller/FixedDifferentPartition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unah/memorymanagement/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unah/memorymanagement/controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/unah/memorymanagement/FixedDifferentPartition-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/unah/memorymanagement/FixedDifferentPartition-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/unah/memorymanagement/main-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/unah/memorymanagement/main-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +199,8 @@
       <workItem from="1644815151645" duration="545000" />
       <workItem from="1644815765636" duration="82000" />
       <workItem from="1644817791851" duration="11904000" />
-      <workItem from="1644849654008" duration="9111000" />
+      <workItem from="1644849654008" duration="10070000" />
+      <workItem from="1644860802232" duration="6463000" />
     </task>
     <servers />
   </component>

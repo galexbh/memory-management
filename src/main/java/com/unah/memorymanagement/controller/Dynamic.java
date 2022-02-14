@@ -32,6 +32,7 @@ public class Dynamic implements Initializable {
     public void initialize(URL url, ResourceBundle rb){
         ObservableList<String>  listAlgorithms= FXCollections.observableArrayList("Primer ajuste","Mejor ajuste","Siguiente ajuste");
         comboBoxAlgorithms.setItems(listAlgorithms);
+
     }
 
     @FXML
@@ -101,8 +102,11 @@ public class Dynamic implements Initializable {
                 }
             }
         }
-        splitProgressBar(auxBar, tamMemory);
-        lastBar = PaneParentDyamic.getChildren().indexOf(auxBar);
+        if (temp != - 1) {
+            splitProgressBar(auxBar, tamMemory);
+            lastBar = PaneParentDyamic.getChildren().indexOf(auxBar);
+        }
+
 
 
     }
