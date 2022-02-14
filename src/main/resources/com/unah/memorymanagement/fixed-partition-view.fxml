@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1000.0" style="-fx-background-color: #4F5D75;"
+            xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.unah.memorymanagement.controller.FixedPartition">
+   <Pane fx:id="ParentPaneFixed" layoutX="50.0" layoutY="301.0" prefHeight="150.0" prefWidth="900.0"/>
+   <Button layoutX="309.0" layoutY="160.0" mnemonicParsing="false" onAction="#getFixedMemory"
+           style="-fx-background-color: #EF8354;" text="Medida a particionar" textFill="WHITE"/>
+   <TextField fx:id="fixedMemoryInput" layoutX="504.0" layoutY="160.0"/>
+   <Button layoutX="680.0" layoutY="160.0" mnemonicParsing="false" onAction="#enterFixedMemory"
+           style="-fx-background-color: #3c6e71;" text="Ingresar" textFill="WHITE"/>
+   <Button layoutX="775.0" layoutY="161.0" mnemonicParsing="false" onAction="#clearBarFixed"
+           style="-fx-background-color: #1985a1;" text="Limpiar todo" textFill="WHITE"/>
+   <ComboBox fx:id="comboBoxFixedMemory" layoutX="128.0" layoutY="160.0" prefWidth="150.0"/>
+   <Label layoutX="327.0" layoutY="56.0" text="Fixed Partition" textFill="WHITE">
+      <font>
+         <Font name="JetBrains Mono Extra Bold Nerd Font Complete" size="44.0"/>
+      </font>
+   </Label>
+</AnchorPane>
