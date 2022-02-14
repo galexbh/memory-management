@@ -24,6 +24,7 @@ public class DynamicPartition {
 
     @FXML
     private void clickBestFit(){
+
         ProgressBar[] bars = {BestFitSpace1, BestFitSpace2, BestFitSpace3, BestFitSpace4, BestFitSpace5};
 
         double tamMemory = 0;
