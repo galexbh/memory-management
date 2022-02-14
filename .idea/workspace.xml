@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="853a03fd-21e7-4bda-b182-10cb043150f4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/unah/memorymanagement/controller/FixedDifferentPartition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/unah/memorymanagement/FixedDifferentPartition-view.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/unah/memorymanagement/controller/Dynamic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unah/memorymanagement/controller/Dynamic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/unah/memorymanagement/controller/DynamicPartition.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/unah/memorymanagement/controller/FixedPartition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unah/memorymanagement/controller/FixedPartition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/unah/memorymanagement/Dynamic-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/unah/memorymanagement/Dynamic-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/unah/memorymanagement/DynamicPartition-view.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/unah/memorymanagement/FixedPartition-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/unah/memorymanagement/FixedPartition-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unah/memorymanagement/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unah/memorymanagement/MainApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,8 +35,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -192,7 +188,7 @@
       <workItem from="1644815151645" duration="545000" />
       <workItem from="1644815765636" duration="82000" />
       <workItem from="1644817791851" duration="11904000" />
-      <workItem from="1644849654008" duration="6124000" />
+      <workItem from="1644849654008" duration="9111000" />
     </task>
     <servers />
   </component>
@@ -209,6 +205,17 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/unah/memorymanagement/MainApplication.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
