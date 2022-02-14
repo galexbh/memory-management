@@ -23,9 +23,9 @@ public class MainController {
     public Button btnFixedSize;
 
     private final String[] listForm = {
-            "FixedPartition-view.fxml",
-            "test.fxml",
-            "Dynamic-view.fxml",
+            "fixed-partition-view.fxml",
+            "fixed-different-partition-view.fxml",
+            "dynamic-view.fxml",
             "colleagues-view.fxml"
     };
 
