@@ -1,16 +1,177 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.VBox?>
-
 <?import javafx.scene.control.Button?>
-<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="com.unah.memorymanagement.controller.MainController">
-    <padding>
-        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
-    </padding>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
 
-    <Label fx:id="welcomeText"/>
-    <Button text="Hello!" onAction="#onHelloButtonClick"/>
-</VBox>
+
+<GridPane prefHeight="800.0" prefWidth="1000.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.unah.memorymanagement.controller.MainController">
+   <columnConstraints>
+      <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" percentWidth="60.0" />
+      <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" percentWidth="60.0" prefWidth="100.0" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+   </rowConstraints>
+   <children>
+      <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" style="-fx-background-color: #2D3142;" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+         <children>
+            <Label text="Memory Management" textAlignment="CENTER" textFill="#bfc0c0" wrapText="true">
+               <font>
+                  <Font name="JetBrains Mono ExtraBold ExtBd Nerd Font Complete" size="40.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="40.0" right="40.0" />
+               </VBox.margin>
+            </Label>
+            <Label text="Created by" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <VBox.margin>
+                  <Insets bottom="12.0" top="12.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="JetBrains Mono Medium Nerd Font Complete Mono" size="20.0" />
+               </font>
+            </Label>
+            <Label text="Gabriel Alexander Barrientos Hernández" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <VBox.margin>
+                  <Insets top="14.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="JetBrains Mono Extra Bold Nerd Font Complete" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="78.0" layoutY="450.0" text="Andy Yankarlo Avelar Rodezno" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="JetBrains Mono Extra Bold Nerd Font Complete" size="16.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </Label>
+            <Label layoutX="126.0" layoutY="473.0" text="Kevin David Hernández Rivera" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="JetBrains Mono Extra Bold Nerd Font Complete" size="16.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </Label>
+            <Label layoutX="126.0" layoutY="488.0" text="Alejandro David Ramos Izaguirre" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="JetBrains Mono Extra Bold Nerd Font Complete" size="16.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </Label>
+         </children>
+      </VBox>
+      <VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" style="-fx-background-color: WHITE;" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+         <children>
+            <Label text="Choose Your Algorithm">
+               <font>
+                  <Font name="JetBrains Mono Medium Medium Nerd Font Complete" size="27.0" />
+               </font>
+            </Label>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <VBox.margin>
+                  <Insets left="40.0" right="40.0" top="40.0" />
+               </VBox.margin>
+               <children>
+                  <Label contentDisplay="TOP" text="Fixed">
+                     <graphic>
+                        <Button fx:id="Fixed" mnemonicParsing="false" style="-fx-background-color: #EF8354;" textAlignment="CENTER">
+                           <padding>
+                              <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+                           </padding>
+                           <graphic>
+                              <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@img/fixed.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                     </graphic>
+                     <HBox.margin>
+                        <Insets left="20.0" right="20.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Label contentDisplay="TOP" text="Fixed D. Size" textAlignment="CENTER">
+                     <graphic>
+                        <Button fx:id="btnFixedSize" mnemonicParsing="false" style="-fx-background-color: #EF8354;">
+                           <padding>
+                              <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+                           </padding>
+                           <graphic>
+                              <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@img/fixed_size.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                     </graphic>
+                     <HBox.margin>
+                        <Insets left="20.0" right="20.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" layoutX="50.0" layoutY="169.0" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Label contentDisplay="TOP" text="Dynamic">
+                     <graphic>
+                        <Button fx:id="btnDynamic" mnemonicParsing="false" style="-fx-background-color: #EF8354;">
+                           <padding>
+                              <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+                           </padding>
+                           <graphic>
+                              <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@img/dynamic.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                     </graphic>
+                     <HBox.margin>
+                        <Insets left="20.0" right="20.0" top="20.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Label contentDisplay="TOP" style="-fx-background-color: FFFFFF;" text="Colleague">
+                     <graphic>
+                        <Button fx:id="btnColleague" mnemonicParsing="false" style="-fx-background-color: #EF8354;">
+                           <padding>
+                              <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+                           </padding>
+                           <graphic>
+                              <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@img/colleague.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                     </graphic>
+                     <HBox.margin>
+                        <Insets left="20.0" right="20.0" top="20.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="10.0" left="40.0" right="40.0" />
+               </VBox.margin>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</GridPane>
