@@ -1,4 +1,3 @@
-
 package com.unah.memorymanagement.controller;
 
 import com.unah.memorymanagement.MainApplication;
@@ -23,7 +22,12 @@ public class MainController {
     @FXML
     public Button btnFixedSize;
 
-    private final String[] listForm = {"test.fxml","test.fxml","test.fxml","colleagues-view.fxml"};
+    private final String[] listForm = {
+            "FixedPartition-view.fxml",
+            "test.fxml",
+            "Dynamic-view.fxml",
+            "colleagues-view.fxml"
+    };
 
     public void onOpenForm(ActionEvent actionEvent) throws IOException {
         Button button = (Button)actionEvent.getSource();
