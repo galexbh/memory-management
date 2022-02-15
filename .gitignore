@@ -1,8 +1,9 @@
 # Ignore Gradle build output directory
 build
+# Ignore standard output of all modules
 out
 # Ignore Gradle project-specific cache directory
 .gradle
-# Ignore idea project-specific cache directory
+# Ignore predetermined project configuration
 .idea
 

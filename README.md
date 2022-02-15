@@ -8,13 +8,13 @@ UNAH (Autonomous University of Honduras). Project for the **Operating Systems II
 
 ## Authors ✒️
 
-* **Andy Yankarlo Avelar Rodezno** - *20191033226*
+* **Andy Yankarlo Avelar Rodezno** - *20191033226* - [Save121](https://github.com/Save121)
 
 * **Gabriel Alexander Barrientos** - *20181000058* - [galexbh](https://github.com/galexbh)
 
-* **Kevin David Hernández Rivera** - *20181001565*
+* **Kevin David Hernández Rivera** - *20181001565* - [kevinhKit](https://github.com/kevinhKit)
 
-* **Alejandro David Ramos Izaguirre** - *20181005280*
+* **Alejandro David Ramos Izaguirre** - *20181005280* - [Alejandro1099](https://github.com/Alejandro1099)
 
 ## Necessary 📄
 
