@@ -30,12 +30,12 @@ public class MainController {
     };
 
     public void onOpenForm(ActionEvent actionEvent) throws IOException {
-        Button button = (Button)actionEvent.getSource();
+        Button button = (Button) actionEvent.getSource();
         int value = Integer.parseInt(button.getText());
 
         FXMLLoader fxmlLoader = null;
 
-        switch (value){
+        switch (value) {
             case 1 -> fxmlLoader = new FXMLLoader(MainApplication.class.getResource(listForm[0]));
             case 2 -> fxmlLoader = new FXMLLoader(MainApplication.class.getResource(listForm[1]));
             case 3 -> fxmlLoader = new FXMLLoader(MainApplication.class.getResource(listForm[2]));

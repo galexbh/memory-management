@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="800.0" prefWidth="1000.0" style="-fx-background-color: #4F5D75;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.unah.memorymanagement.controller.Dynamic">
+<AnchorPane prefHeight="800.0" prefWidth="1000.0" style="-fx-background-color: #4F5D75;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.unah.memorymanagement.controller.DynamicController">
    <Pane fx:id="PaneParentDyamic" layoutX="50.0" layoutY="325.0" prefHeight="150.0" prefWidth="900.0">
       <ProgressBar prefHeight="150.0" prefWidth="900.0" progress="0.0" />
    </Pane>

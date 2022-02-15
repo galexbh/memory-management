@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 
-public class colleaguesUtils {
+public class ColleaguesUtils {
 
     public static class Buddy {
         String assignedResult, designatedResult;

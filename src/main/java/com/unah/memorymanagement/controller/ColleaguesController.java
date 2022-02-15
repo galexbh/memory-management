@@ -1,6 +1,6 @@
 package com.unah.memorymanagement.controller;
 
-import com.unah.memorymanagement.utils.colleaguesUtils;
+import com.unah.memorymanagement.utils.ColleaguesUtils;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Label;
@@ -20,7 +20,7 @@ public class ColleaguesController implements Initializable {
     @FXML
     private TextField txtSpaceMemory;
 
-    colleaguesUtils.Buddy buddy;
+    ColleaguesUtils.Buddy buddy;
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
@@ -29,7 +29,7 @@ public class ColleaguesController implements Initializable {
 
     public void setMemorySize() {
         int memorySize = Integer.parseInt(txtSpaceMemory.getText());
-        buddy = new colleaguesUtils.Buddy(memorySize);
+        buddy = new ColleaguesUtils.Buddy(memorySize);
         statusMemorySize.setText("Size: " + txtSpaceMemory.getText() + "MB");
 
     }

@@ -10,7 +10,7 @@
 
 <AnchorPane prefHeight="800.0" prefWidth="1000.0" style="-fx-background-color: #4F5D75;"
             xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1"
-            fx:controller="com.unah.memorymanagement.controller.FixedDifferentPartition">
+            fx:controller="com.unah.memorymanagement.controller.FixedDifferentPartitionController">
    <Pane fx:id="PaneParenFixedDifferent" layoutX="56.0" layoutY="311.0" prefHeight="150.0" prefWidth="900.0">
       <ProgressBar prefHeight="150.0" prefWidth="90.0" progress="0.0"/>
       <ProgressBar layoutX="90.0" prefHeight="150.0" prefWidth="120.0" progress="0.0"/>

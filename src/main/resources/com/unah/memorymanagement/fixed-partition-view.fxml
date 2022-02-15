@@ -10,7 +10,7 @@
 
 <AnchorPane prefHeight="800.0" prefWidth="1000.0" style="-fx-background-color: #4F5D75;"
             xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1"
-            fx:controller="com.unah.memorymanagement.controller.FixedPartition">
+            fx:controller="com.unah.memorymanagement.controller.FixedPartitionController">
    <Pane fx:id="ParentPaneFixed" layoutX="50.0" layoutY="301.0" prefHeight="150.0" prefWidth="900.0"/>
    <Button layoutX="309.0" layoutY="160.0" mnemonicParsing="false" onAction="#getFixedMemory"
            style="-fx-background-color: #EF8354;" text="Medida a particionar" textFill="WHITE"/>
